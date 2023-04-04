@@ -1,4 +1,5 @@
 Full Stack Blog
+
 This is a full-stack blog application built using React.js and Laravel. The application allows users to create and publish blog posts, as well as browse and read posts created by other users.
 
 Installation
