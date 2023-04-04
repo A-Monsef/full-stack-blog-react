@@ -1,0 +1,164 @@
+$lightrose : #145369;
+
+
+.app{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    .container{
+                .content {
+                            height: 240px;
+                            
+                            div{
+                                
+                                max-height: 170px; /* Set the maximum height */
+                                overflow: hidden; /* Hide any content that overflows the height */
+                                text-overflow: ellipsis; /* Add ellipsis if there's more content */
+                                white-space: wrap; /* Prevent the content from wrapping to a new line */
+                            }
+                        }
+                
+                .img {
+                            transition: transform 0.5s ease-in-out;
+                            
+                    }
+                    
+                .img:hover {
+                            transform: scale(1.05);
+                        }
+            
+                .link{
+                    text-decoration: none;
+                    color: inherit;
+                }
+                h1 {
+                    width: 310px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+        //Login and Register
+
+        .auth{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: $lightrose;
+            
+            h1{
+                font-size: 25px;
+                color: white;
+                margin-bottom: 15px;
+            }
+
+            Form{
+                display: flex;
+                flex-direction: column;
+                padding: 30px;
+                background-color: white;
+                gap: 15px;
+                width: 400px;
+            }
+
+            input{
+                padding: 15px;
+                border: none;
+                border-bottom: 1px solid gray;
+            }
+
+            button{
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+                background-color: #041014;
+                color: white;
+            }
+            span {
+                    text-align: center;
+                    font-size: 10px;
+                }
+        }
+        //style backgrounde home
+            .custom-shape-divider{
+                position: relative;
+            }
+            .custom-shape-divider-bottom-1678717925 {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                overflow: hidden;
+                line-height: 0;
+            }
+
+            .custom-shape-divider-bottom-1678717925 svg {
+                position: relative;
+                display: block;
+                width: calc(100% + 1.3px);
+                height: 120px;
+            }
+
+            .custom-shape-divider-bottom-1678717925 .shape-fill {
+                fill: #FFFF;
+            }
+
+        //style of navbar
+        //.navbar{
+            .container{
+                padding: 20px 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .logo{
+                    img{
+                        width: 120px;
+                    }
+                }
+                .links{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    h6{
+                        font-size: 15px;
+                        font-weight: 500;
+                    }
+
+                    span{
+                        font-weight: 1000;
+                        cursor: pointer;
+                        text-align: center;
+                    }
+                    .write{
+                        font-weight: normal;
+                    }
+                }
+            }
+        //}
+        //Style of Footer
+        footer{
+            margin-top: 100px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: $lightrose;
+            font-size: 12px;
+            color: white;
+            img{
+                height: 50px;
+                background-color: white;
+                border-radius: 50%;
+            }
+        }
+
+        //Home page
+        
+    }
+}
